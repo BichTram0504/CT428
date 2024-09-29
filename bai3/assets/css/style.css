@@ -1,0 +1,43 @@
+*{
+    position: relative;
+}
+i {
+    padding: 3px;
+}
+.intro{
+    display: flex;
+}
+.intro__info{
+    padding: 20px;
+    width: 30%;
+    background-image: linear-gradient(0, rgb(67, 189, 189), rgb(232, 248, 247));
+
+}
+.intro__info-bg{
+    margin-left: 10%;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.intro__info-img{
+    width: 40%;
+    border-radius: 15px;
+}
+.intro__info-content-img{
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px;
+    margin-left: 10%;
+
+}
+.intro__content {
+    width: 70%;
+    background-image: linear-gradient(0, rgb(108, 255, 255), rgb(232, 248, 247));
+    padding: 20px;
+}
+
+.intro__content-study {
+    display: flex;
+}
+
